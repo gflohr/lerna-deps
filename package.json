@@ -1,0 +1,19 @@
+{
+	"name": "lerna-deps",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"test": "lerna run test --stream"
+	},
+	"keywords": [],
+	"author": "Guido Flohr <guido.flohr@cantanea.com> (http://www.guido.flohr.net/)",
+	"license": "WTFPL",
+	"devDependencies": {
+		"jest": "^26.4.2",
+		"lerna": "^3.22.1",
+		"ts-jest": "^26.3.0",
+		"typescript": "^4.0.2"
+	}
+}
