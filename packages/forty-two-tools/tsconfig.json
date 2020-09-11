@@ -1,0 +1,10 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@forty-two/forty-two-runtime": ["../forty-two-runtime/src"]
+		}
+	},
+	"includes": ["./src"]
+}
